@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="top_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="top_tb" />
+            <top_module name="txt_util" />
+            <top_module name="util_pkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="249.389 ns"></ZoomStartTime>
+      <ZoomEndTime time="267.050 ns"></ZoomEndTime>
+      <Cursor1Time time="267.996 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="216"></NameColumnWidth>
+      <ValueColumnWidth column_width="67"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="30" />
+   <wvobject fp_name="/top_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/coef_en" type="logic">
+      <obj_property name="ElementShortName">coef_en</obj_property>
+      <obj_property name="ObjectShortName">coef_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/coef_addr" type="array">
+      <obj_property name="ElementShortName">coef_addr[2:0]</obj_property>
+      <obj_property name="ObjectShortName">coef_addr[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/coef_in" type="array">
+      <obj_property name="ElementShortName">coef_in[17:0]</obj_property>
+      <obj_property name="ObjectShortName">coef_in[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/s_tdata" type="array">
+      <obj_property name="ElementShortName">s_tdata[17:0]</obj_property>
+      <obj_property name="ObjectShortName">s_tdata[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/s_tvalid" type="logic">
+      <obj_property name="ElementShortName">s_tvalid</obj_property>
+      <obj_property name="ObjectShortName">s_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/s_tready" type="logic">
+      <obj_property name="ElementShortName">s_tready</obj_property>
+      <obj_property name="ObjectShortName">s_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/s_tlast" type="logic">
+      <obj_property name="ElementShortName">s_tlast</obj_property>
+      <obj_property name="ObjectShortName">s_tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/m_tdata" type="array">
+      <obj_property name="ElementShortName">m_tdata[17:0]</obj_property>
+      <obj_property name="ObjectShortName">m_tdata[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/m_tvalid" type="logic">
+      <obj_property name="ElementShortName">m_tvalid</obj_property>
+      <obj_property name="ObjectShortName">m_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/m_tready" type="logic">
+      <obj_property name="ElementShortName">m_tready</obj_property>
+      <obj_property name="ObjectShortName">m_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/m_tlast" type="logic">
+      <obj_property name="ElementShortName">m_tlast</obj_property>
+      <obj_property name="ObjectShortName">m_tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/done_seen" type="logic">
+      <obj_property name="ElementShortName">done_seen</obj_property>
+      <obj_property name="ObjectShortName">done_seen</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DATA_WIDTH" type="other">
+      <obj_property name="ElementShortName">DATA_WIDTH</obj_property>
+      <obj_property name="ObjectShortName">DATA_WIDTH</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/fir_ord" type="other">
+      <obj_property name="ElementShortName">fir_ord</obj_property>
+      <obj_property name="ObjectShortName">fir_ord</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/N" type="other">
+      <obj_property name="ElementShortName">N</obj_property>
+      <obj_property name="ObjectShortName">N</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/K" type="other">
+      <obj_property name="ElementShortName">K</obj_property>
+      <obj_property name="ObjectShortName">K</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/Tclk" type="other">
+      <obj_property name="ElementShortName">Tclk</obj_property>
+      <obj_property name="ObjectShortName">Tclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/s_tvalid" type="logic">
+      <obj_property name="ElementShortName">s_tvalid</obj_property>
+      <obj_property name="ObjectShortName">s_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/s_tdata" type="array">
+      <obj_property name="ElementShortName">s_tdata[17:0]</obj_property>
+      <obj_property name="ObjectShortName">s_tdata[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/s_tvalid" type="logic">
+      <obj_property name="ElementShortName">s_tvalid</obj_property>
+      <obj_property name="ObjectShortName">s_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/s_tready" type="logic">
+      <obj_property name="ElementShortName">s_tready</obj_property>
+      <obj_property name="ObjectShortName">s_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/s_tlast" type="logic">
+      <obj_property name="ElementShortName">s_tlast</obj_property>
+      <obj_property name="ObjectShortName">s_tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/m_tdata" type="array">
+      <obj_property name="ElementShortName">m_tdata[17:0]</obj_property>
+      <obj_property name="ObjectShortName">m_tdata[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/m_tvalid" type="logic">
+      <obj_property name="ElementShortName">m_tvalid</obj_property>
+      <obj_property name="ObjectShortName">m_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/m_tready" type="logic">
+      <obj_property name="ElementShortName">m_tready</obj_property>
+      <obj_property name="ObjectShortName">m_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/m_tlast" type="logic">
+      <obj_property name="ElementShortName">m_tlast</obj_property>
+      <obj_property name="ObjectShortName">m_tlast</obj_property>
+   </wvobject>
+</wave_config>
